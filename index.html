@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Happy Calculator: Kids Math</title>
+  <meta name="description" content="Official Privacy Policy for Happy Calculator: Kids Math (HappyCalc). Learn how we protect children's privacy in full compliance with COPPA, GDPR-K, and Google Play Families Policy.">
+  <meta name="robots" content="index, follow">
+  <link rel="icon" type="image/png" href="app-icon.png">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    :root {
+      --font-display: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      
+      --color-bg: #f8fafc;
+      --color-surface: #ffffff;
+      --color-surface-elevated: #ffffff;
+      --color-text-main: #0f172a;
+      --color-text-muted: #475569;
+      --color-text-subtle: #64748b;
+      --color-border: #e2e8f0;
+      --color-border-light: #f1f5f9;
+      
+      --color-primary: #4f46e5;
+      --color-primary-light: #6366f1;
+      --color-primary-soft: #eef2ff;
+      --color-accent: #06b6d4;
+      --color-success: #10b981;
+      --color-success-soft: #ecfdf5;
+      --color-warning: #f59e0b;
+      --color-warning-soft: #fffbeb;
+      --color-danger: #ef4444;
+      --color-danger-soft: #fef2f2;
+      
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+      --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+      
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --radius-xl: 24px;
+      --radius-full: 9999px;
+      
+      --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    [data-theme="dark"] {
+      --color-bg: #090d16;
+      --color-surface: #111827;
+      --color-surface-elevated: #1e293b;
+      --color-text-main: #f8fafc;
+      --color-text-muted: #cbd5e1;
+      --color-text-subtle: #94a3b8;
+      --color-border: #1e293b;
+      --color-border-light: #151e2e;
+      
+      --color-primary: #818cf8;
+      --color-primary-light: #a5b4fc;
+      --color-primary-soft: rgba(99, 102, 241, 0.12);
+      --color-accent: #38bdf8;
+      --color-success: #34d399;
+      --color-success-soft: rgba(16, 185, 129, 0.12);
+      --color-warning: #fbbf24;
+      --color-warning-soft: rgba(245, 158, 11, 0.12);
+      --color-danger: #f87171;
+      --color-danger-soft: rgba(239, 68, 68, 0.12);
+      
+      --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+      --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+      --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+      --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--color-bg);
+      color: var(--color-text-main);
+      line-height: 1.7;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* Top Banner & Header */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      background: rgba(255, 255, 255, 0.85);
+      border-bottom: 1px solid var(--color-border);
+      transition: background 0.3s ease, border-color 0.3s ease;
+    }
+
+    [data-theme="dark"] .site-header {
+      background: rgba(9, 13, 22, 0.85);
+    }
+
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: var(--radius-md);
+      box-shadow: 0 4px 10px rgba(99, 102, 241, 0.25);
+      object-fit: cover;
+    }
+
+    .brand-text h1 {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--color-text-main);
+      line-height: 1.2;
+    }
+
+    .brand-text p {
+      font-size: 0.78rem;
+      color: var(--color-text-subtle);
+      font-weight: 500;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn-action {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      color: var(--color-text-main);
+      padding: 8px 14px;
+      border-radius: var(--radius-full);
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: var(--transition);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .btn-action:hover {
+      background: var(--color-border-light);
+      border-color: var(--color-primary-light);
+      transform: translateY(-1px);
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(6, 182, 212, 0.06) 100%);
+      border-bottom: 1px solid var(--color-border);
+      padding: 60px 24px 50px;
+    }
+
+    .hero-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      background: var(--color-success-soft);
+      color: var(--color-success);
+      border: 1px solid currentColor;
+      border-radius: var(--radius-full);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      margin-bottom: 16px;
+    }
+
+    .hero h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 2.75rem);
+      font-weight: 800;
+      color: var(--color-text-main);
+      line-height: 1.2;
+      margin-bottom: 14px;
+    }
+
+    .hero-meta {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 18px;
+      font-size: 0.9rem;
+      color: var(--color-text-subtle);
+      margin-bottom: 32px;
+    }
+
+    .hero-meta span {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Highlight Cards Grid */
+    .highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 24px;
+      text-align: left;
+    }
+
+    .highlight-card {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .highlight-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--color-primary-light);
+    }
+
+    .highlight-icon {
+      font-size: 1.75rem;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--color-primary-soft);
+      border-radius: var(--radius-md);
+      margin-bottom: 4px;
+    }
+
+    .highlight-card h4 {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--color-text-main);
+    }
+
+    .highlight-card p {
+      font-size: 0.84rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+    }
+
+    /* Main Content Layout */
+    .main-container {
+      max-width: 1200px;
+      margin: 40px auto 80px;
+      padding: 0 24px;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 40px;
+      align-items: start;
+    }
+
+    /* Sidebar Navigation */
+    .sidebar {
+      position: sticky;
+      top: 90px;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .sidebar-title {
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--color-text-subtle);
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .nav-list a {
+      display: block;
+      color: var(--color-text-muted);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 500;
+      padding: 8px 12px;
+      border-radius: var(--radius-sm);
+      transition: var(--transition);
+      line-height: 1.4;
+    }
+
+    .nav-list a:hover {
+      background: var(--color-primary-soft);
+      color: var(--color-primary);
+      padding-left: 16px;
+    }
+
+    .nav-list a.active {
+      background: var(--color-primary-soft);
+      color: var(--color-primary);
+      font-weight: 700;
+      border-left: 3px solid var(--color-primary);
+    }
+
+    /* Content Area */
+    .content {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: 40px 48px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .policy-section {
+      margin-bottom: 44px;
+      scroll-margin-top: 100px;
+    }
+
+    .policy-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .policy-section h3 {
+      font-family: var(--font-display);
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: var(--color-text-main);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--color-border-light);
+    }
+
+    .section-num {
+      width: 32px;
+      height: 32px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--color-primary-soft);
+      color: var(--color-primary);
+      border-radius: var(--radius-sm);
+      font-size: 0.95rem;
+      font-weight: 800;
+    }
+
+    .policy-section p {
+      font-size: 0.96rem;
+      color: var(--color-text-muted);
+      margin-bottom: 14px;
+    }
+
+    .policy-section ul {
+      margin: 12px 0 16px 20px;
+      color: var(--color-text-muted);
+      font-size: 0.95rem;
+    }
+
+    .policy-section li {
+      margin-bottom: 8px;
+      padding-left: 4px;
+    }
+
+    .policy-section strong {
+      color: var(--color-text-main);
+    }
+
+    /* Callout Boxes */
+    .callout {
+      border-radius: var(--radius-md);
+      padding: 18px 20px;
+      margin: 18px 0;
+      border-left: 4px solid;
+      font-size: 0.92rem;
+      line-height: 1.6;
+    }
+
+    .callout-success {
+      background: var(--color-success-soft);
+      border-color: var(--color-success);
+      color: var(--color-text-main);
+    }
+
+    .callout-info {
+      background: var(--color-primary-soft);
+      border-color: var(--color-primary);
+      color: var(--color-text-main);
+    }
+
+    .callout-warning {
+      background: var(--color-warning-soft);
+      border-color: var(--color-warning);
+      color: var(--color-text-main);
+    }
+
+    /* Comparison / Data Safety Table */
+    .table-wrapper {
+      overflow-x: auto;
+      margin: 20px 0;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-border);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background: var(--color-border-light);
+      padding: 12px 16px;
+      font-weight: 700;
+      color: var(--color-text-main);
+      font-family: var(--font-display);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background: rgba(99, 102, 241, 0.02);
+    }
+
+    .badge-no {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      background: var(--color-danger-soft);
+      color: var(--color-danger);
+      border-radius: var(--radius-full);
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    .badge-yes {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 10px;
+      background: var(--color-success-soft);
+      color: var(--color-success);
+      border-radius: var(--radius-full);
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    /* Contact Card */
+    .contact-card {
+      background: linear-gradient(135deg, var(--color-primary-soft), rgba(6, 182, 212, 0.08));
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.95rem;
+    }
+
+    .contact-item a {
+      color: var(--color-primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    .site-footer {
+      border-top: 1px solid var(--color-border);
+      background: var(--color-surface);
+      padding: 40px 24px;
+      text-align: center;
+      font-size: 0.88rem;
+      color: var(--color-text-subtle);
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* Floating Back to Top Button */
+    .btn-top {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--color-primary);
+      color: white;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-lg);
+      opacity: 0;
+      pointer-events: none;
+      transition: var(--transition);
+      z-index: 40;
+    }
+
+    .btn-top.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .btn-top:hover {
+      transform: translateY(-3px);
+      background: var(--color-primary-light);
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .main-container {
+        grid-template-columns: 1fr;
+      }
+      .sidebar {
+        display: none;
+      }
+      .content {
+        padding: 28px 20px;
+      }
+    }
+
+    /* Print Styles */
+    @media print {
+      .site-header, .sidebar, .btn-action, .btn-top, .site-footer {
+        display: none !important;
+      }
+      body {
+        background: white !important;
+        color: black !important;
+      }
+      .content {
+        box-shadow: none !important;
+        border: none !important;
+        padding: 0 !important;
+      }
+      .hero {
+        background: none !important;
+        border-bottom: 2px solid #ccc !important;
+        padding: 20px 0 !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Sticky Navigation -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#" class="brand-link">
+        <img src="app-icon.png" alt="HappyCalc Icon" class="brand-icon">
+        <div class="brand-text">
+          <h1>Happy Calculator: Kids Math</h1>
+          <p>Official Privacy Policy</p>
+        </div>
+      </a>
+      <div class="header-actions">
+        <button class="btn-action" id="themeToggle" aria-label="Toggle Dark Mode">
+          <span id="themeIcon">🌙</span> <span id="themeLabel">Dark</span>
+        </button>
+        <button class="btn-action" onclick="window.print()" aria-label="Print Document">
+          🖨️ Print
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Header -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="badge-pill">
+        🛡️ Google Play Families Policy & COPPA Compliant
+      </div>
+      <h2>Privacy Policy</h2>
+      <div class="hero-meta">
+        <span>📅 <strong>Last Updated:</strong> October 4, 2026</span>
+        <span>⚡ <strong>Effective Date:</strong> October 4, 2026</span>
+        <span>📱 <strong>Application:</strong> HappyCalc (com.maxmemo.salah.newcalculator)</span>
+      </div>
+      
+      <!-- Highlights Grid -->
+      <div class="highlights-grid">
+        <div class="highlight-card">
+          <div class="highlight-icon">🚫</div>
+          <h4>Zero Personal Data</h4>
+          <p>We do not collect names, emails, phone numbers, contacts, device IDs, or exact location.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">🔒</div>
+          <h4>100% Local Storage</h4>
+          <p>All stickers, scores, avatar profiles, and history remain securely encrypted on your device.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">🛡️</div>
+          <h4>COPPA & GDPR-K</h4>
+          <p>Designed strictly under international child safety laws with no behavioral profiling.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">👶</div>
+          <h4>Child-Directed Ads</h4>
+          <p>AdMob ads are family-safe, G-rated only, with advertising tracking IDs disabled.</p>
+        </div>
+        <div class="highlight-card">
+          <div class="highlight-icon">🧮</div>
+          <h4>Parent Gate Security</h4>
+          <p>Adult-level math puzzles protect external links, settings, and parental dashboards.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Container -->
+  <main class="main-container">
+    
+    <!-- Table of Contents Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-title">Table of Contents</div>
+      <nav>
+        <ul class="nav-list" id="tocNav">
+          <li><a href="#intro" class="active">1. Introduction & Overview</a></li>
+          <li><a href="#children">2. Children's Privacy (COPPA & GDPR-K)</a></li>
+          <li><a href="#data-collection">3. Data Collection & Safety Table</a></li>
+          <li><a href="#local-storage">4. On-Device Storage & Encryption</a></li>
+          <li><a href="#advertising">5. Advertising & Families Policy</a></li>
+          <li><a href="#third-party">6. Third-Party Services</a></li>
+          <li><a href="#parent-gate">7. Parental Controls & Parent Gate</a></li>
+          <li><a href="#data-rights">8. User Rights & Data Deletion</a></li>
+          <li><a href="#security">9. Security Standards</a></li>
+          <li><a href="#changes">10. Policy Updates</a></li>
+          <li><a href="#contact">11. Developer Contact Info</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Document Content -->
+    <article class="content">
+
+      <!-- Section 1 -->
+      <section class="policy-section" id="intro">
+        <h3><span class="section-num">1</span> Introduction & Overview</h3>
+        <p>
+          Welcome to <strong>Happy Calculator: Kids Math</strong> ("HappyCalc", "the App", "we", "us", or "our"). We are passionate about making mathematics joyful, approachable, and rewarding for children and young learners.
+        </p>
+        <p>
+          Because our application is designed specifically for children and families, <strong>protecting child privacy is our highest priority</strong>. This Privacy Policy details our strict adherence to privacy protection, explaining what data is stored, how features operate locally, and how we protect every child who interacts with our application.
+        </p>
+        <div class="callout callout-success">
+          <strong>Our Core Guarantee:</strong> HappyCalc is engineered on a "privacy-by-design" architecture. We do not operate external member databases, do not require user accounts or registrations, and do not track or profile children across the internet.
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="policy-section" id="children">
+        <h3><span class="section-num">2</span> Compliance with Children's Privacy Laws (COPPA & GDPR-K)</h3>
+        <p>
+          HappyCalc complies fully with the <strong>Children's Online Privacy Protection Act (COPPA)</strong> in the United States and the <strong>General Data Protection Regulation for Kids (GDPR-K, Article 8)</strong> in the European Union, as well as Google Play's <strong>Designed for Families</strong> policy requirements.
+        </p>
+        <ul>
+          <li><strong>No Collection of Personal Information:</strong> We do not knowingly collect, solicit, or store personally identifiable information (PII) from children under the age of 13 (or under 16 in the European Economic Area).</li>
+          <li><strong>No Mandatory Account Creation:</strong> Children can enjoy all features of HappyCalc without creating an account, signing up with an email address, or linking social media profiles.</li>
+          <li><strong>No Social Interaction or Chat:</strong> There are no open chat rooms, public message boards, or multiplayer messaging features where a child could accidentally share personal information.</li>
+          <li><strong>Parental Supervision:</strong> We encourage parents and legal guardians to actively participate in and monitor their children's app usage.</li>
+        </ul>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="policy-section" id="data-collection">
+        <h3><span class="section-num">3</span> Data Collection & Google Play Data Safety Disclosures</h3>
+        <p>
+          In accordance with Google Play Data Safety standards, the following table summarizes our data collection and sharing practices:
+        </p>
+        
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Data Category</th>
+                <th>Collected?</th>
+                <th>Shared with 3rd Parties?</th>
+                <th>Storage & Handling</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Personal Identifiers</strong><br><small>(Name, Email, Phone, Address)</small></td>
+                <td><span class="badge-no">❌ Not Collected</span></td>
+                <td><span class="badge-no">❌ Not Shared</span></td>
+                <td>Never requested or stored.</td>
+              </tr>
+              <tr>
+                <td><strong>Location Information</strong><br><small>(GPS, Precise or Approximate)</small></td>
+                <td><span class="badge-no">❌ Not Collected</span></td>
+                <td><span class="badge-no">❌ Not Shared</span></td>
+                <td>No location permissions declared.</td>
+              </tr>
+              <tr>
+                <td><strong>Media & Sensors</strong><br><small>(Camera, Photos, Microphone)</small></td>
+                <td><span class="badge-no">❌ Not Collected</span></td>
+                <td><span class="badge-no">❌ Not Shared</span></td>
+                <td>App has zero access to camera or mic.</td>
+              </tr>
+              <tr>
+                <td><strong>Device & Advertising Identifiers</strong><br><small>(AAID, IMEI, MAC Address)</small></td>
+                <td><span class="badge-no">❌ Not Collected</span></td>
+                <td><span class="badge-no">❌ Not Shared</span></td>
+                <td>Ad ID collection is explicitly disabled in the manifest.</td>
+              </tr>
+              <tr>
+                <td><strong>Learning & Game Progress</strong><br><small>(Scores, Stars, Math History, Avatars)</small></td>
+                <td><span class="badge-yes">✅ Local Device Only</span></td>
+                <td><span class="badge-no">❌ Not Shared</span></td>
+                <td>Stored inside an encrypted SQLite database on the local device.</td>
+              </tr>
+              <tr>
+                <td><strong>Crash & Diagnostic Logs</strong><br><small>(System stability via Google Play)</small></td>
+                <td><span class="badge-yes">✅ Anonymous Diagnostics</span></td>
+                <td><span class="badge-no">❌ Google Play Only</span></td>
+                <td>Aggregated, anonymized system metrics to fix bugs and crashes.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="policy-section" id="local-storage">
+        <h3><span class="section-num">4</span> On-Device Storage & Data Encryption</h3>
+        <p>
+          HappyCalc offers interactive features such as multi-child profiles, sticker rooms, arithmetic quest stars, and calculation history. 
+        </p>
+        <ul>
+          <li>All saved profiles, earned badges, custom nicknames, and historical equations are stored <strong>strictly locally</strong> on the user's mobile device using an encrypted SQLite database.</li>
+          <li>This information <strong>never leaves the device</strong> and is never transmitted to our servers or external databases.</li>
+          <li>If you uninstall the app or clear the app storage in your Android device settings, all locally stored data is permanently and immediately deleted.</li>
+        </ul>
+      </section>
+
+      <!-- Section 5 -->
+      <section class="policy-section" id="advertising">
+        <h3><span class="section-num">5</span> Advertising Policy & Families Program Compliance</h3>
+        <p>
+          To keep HappyCalc free and accessible to all families, the App may display non-intrusive advertisements provided exclusively by <strong>Google AdMob</strong>, an approved and certified ad network under the Google Play Designed for Families program.
+        </p>
+        <p>Our advertising implementation complies strictly with Google Play Families ad policies:</p>
+        <ul>
+          <li><strong>Child-Directed Configuration:</strong> All ad requests are flagged with <code>TAG_FOR_CHILD_DIRECTED_TREATMENT = true</code> and <code>TAG_FOR_UNDER_AGE_OF_CONSENT = true</code>.</li>
+          <li><strong>Restricted Content Rating:</strong> Ad content is hard-capped to the <strong>G (General Audiences)</strong> rating suitable for children of all ages.</li>
+          <li><strong>No Behavioral Tracking:</strong> Personalized advertising, behavioral profiling, and cross-site remarketing are completely disabled.</li>
+          <li><strong>No Advertising ID Collection:</strong> The Google Advertising ID (AAID) permission is explicitly disabled in the app's manifest (<code>tools:node="remove"</code>) to prevent device identification.</li>
+          <li><strong>Safe Ad Placement:</strong> Ads are clearly differentiated from game content and will never deceive or manipulate young learners.</li>
+        </ul>
+      </section>
+
+      <!-- Section 6 -->
+      <section class="policy-section" id="third-party">
+        <h3><span class="section-num">6</span> Third-Party Service Providers</h3>
+        <p>
+          HappyCalc integrates with a limited number of industry-standard third-party SDKs necessary for operating and stabilizing the Android application:
+        </p>
+        <ul>
+          <li>
+            <strong>Google Play Services:</strong> Provided by Google LLC. Used for core operating system functionality, app licensing, and standard device compatibility. 
+            <br><small>Privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></small>
+          </li>
+          <li>
+            <strong>Google AdMob (Child-Safe):</strong> Certified family-safe ad network delivering contextual, non-personalized advertisements.
+            <br><small>AdMob privacy information: <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">AdMob Families Policy Disclosures</a></small>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Section 7 -->
+      <section class="policy-section" id="parent-gate">
+        <h3><span class="section-num">7</span> Parental Controls & Protected Parent Gate</h3>
+        <p>
+          HappyCalc includes a specialized <strong>Parental Gate</strong> mechanism designed to keep young children safely inside the learning environment:
+        </p>
+        <ul>
+          <li>Any action that could lead outside the app (such as visiting an external web link, reviewing the app on Google Play, or accessing adult settings/dashboards) is locked behind a math puzzle intended exclusively for adults.</li>
+          <li>This prevents inadvertent purchases, unexpected web navigation, or unintended modification of child learning statistics.</li>
+        </ul>
+      </section>
+
+      <!-- Section 8 -->
+      <section class="policy-section" id="data-rights">
+        <h3><span class="section-num">8</span> User Rights, Data Retention & Deletion</h3>
+        <p>
+          Because we do not store your personal information on any cloud servers or remote databases, you maintain 100% control over your data directly on your device:
+        </p>
+        <ul>
+          <li><strong>Immediate Reset:</strong> You can reset all learning history and profiles at any time from within the Parent Dashboard inside the app.</li>
+          <li><strong>Full Data Deletion:</strong> Navigating to your device's <em>Settings &gt; Apps &gt; HappyCalc &gt; Storage &gt; Clear Data</em> or uninstalling the app permanently purges all local databases.</li>
+          <li><strong>Parental Inquiries:</strong> Parents or guardians may contact us at any time with questions regarding their child's privacy or data rights.</li>
+        </ul>
+      </section>
+
+      <!-- Section 9 -->
+      <section class="policy-section" id="security">
+        <h3><span class="section-num">9</span> Security Standards</h3>
+        <p>
+          We employ robust security practices to safeguard data on your device:
+        </p>
+        <ul>
+          <li><strong>Android Application Sandboxing:</strong> App data is stored in isolated application sandboxes, preventing unauthorized applications from inspecting or accessing HappyCalc databases.</li>
+          <li><strong>HTTPS Transport Security:</strong> Any network communication (such as fetching contextual ads) is strictly conducted over encrypted TLS/HTTPS protocols.</li>
+        </ul>
+      </section>
+
+      <!-- Section 10 -->
+      <section class="policy-section" id="changes">
+        <h3><span class="section-num">10</span> Changes to This Privacy Policy</h3>
+        <p>
+          We may update our Privacy Policy periodically to reflect enhancements to our features, operational practices, or updates to legal guidelines. Any changes will be published directly to this page with an updated "Last Updated" date.
+        </p>
+        <p>
+          We recommend that parents review this page occasionally. Continued use of HappyCalc following any posted revisions constitutes acceptance of those changes.
+        </p>
+      </section>
+
+      <!-- Section 11 -->
+      <section class="policy-section" id="contact">
+        <h3><span class="section-num">11</span> Developer Contact Information</h3>
+        <p>
+          If you have questions, feedback, or concerns regarding this Privacy Policy or your family's privacy, please reach out to our dedicated support team:
+        </p>
+        
+        <div class="contact-card">
+          <div class="contact-item">
+            <span>📧</span>
+            <div>
+              <strong>Support Email:</strong><br>
+              <a href="mailto:support@happycalc.app">support@happycalc.app</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span>📱</span>
+            <div>
+              <strong>Application Name:</strong> Happy Calculator: Kids Math (HappyCalc)<br>
+              <strong>Package Identifier:</strong> <code>com.maxmemo.salah.newcalculator</code>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span>⏱️</span>
+            <div>
+              <strong>Response Time:</strong> We strive to respond to all parent privacy inquiries within 48 business hours.
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- Floating Back to Top Button -->
+  <button class="btn-top" id="btnTop" title="Back to top" aria-label="Back to top">
+    ↑
+  </button>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p>&copy; 2026 Happy Calculator (HappyCalc). All rights reserved.</p>
+      <p>Designed with care for children and families. Compliant with Google Play Families Policy.</p>
+    </div>
+  </footer>
+
+  <!-- Script for Theme Toggle & Dynamic Scroll Spy -->
+  <script>
+    // Theme Toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const themeIcon = document.getElementById('themeIcon');
+    const themeLabel = document.getElementById('themeLabel');
+
+    // Check system preference
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const savedTheme = localStorage.getItem('theme') || (prefersDark ? 'dark' : 'light');
+    
+    function applyTheme(theme) {
+      if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        themeIcon.textContent = '☀️';
+        themeLabel.textContent = 'Light';
+      } else {
+        document.documentElement.removeAttribute('data-theme');
+        themeIcon.textContent = '🌙';
+        themeLabel.textContent = 'Dark';
+      }
+      localStorage.setItem('theme', theme);
+    }
+    
+    applyTheme(savedTheme);
+
+    themeToggle.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
+      applyTheme(currentTheme === 'dark' ? 'light' : 'dark');
+    });
+
+    // Back to Top button
+    const btnTop = document.getElementById('btnTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 400) {
+        btnTop.classList.add('visible');
+      } else {
+        btnTop.classList.remove('visible');
+      }
+    });
+    btnTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Active Navigation Highlight
+    const sections = document.querySelectorAll('.policy-section');
+    const navLinks = document.querySelectorAll('#tocNav a');
+
+    window.addEventListener('scroll', () => {
+      let currentSectionId = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 140;
+        if (window.scrollY >= sectionTop) {
+          currentSectionId = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + currentSectionId) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
